@@ -23,6 +23,7 @@
                 width: 100%;
                 height: 150px;
                 object-fit: cover;
+                border-radius: 0.5rem;
 
                 @include respond(md) {
                     height: 200px;
@@ -182,6 +183,7 @@
                 width: var(--image-size);
                 height: var(--image-size);
                 object-fit: cover;
+                border-radius: 0.5rem;
             }
         }
 
@@ -235,6 +237,7 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                border-radius: 0.5rem;
             }
         }
 
