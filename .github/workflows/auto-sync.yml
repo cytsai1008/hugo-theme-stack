@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Sync Upstream
-        uses: dabreadman/sync-upstream-repo@v1.3.0
+        uses: dabreadman/sync-upstream-repo@latest
         with:
           # URL of gitHub public upstream repo
           upstream_repo: "https://github.com/CaiJimmy/hugo-theme-stack.git"
